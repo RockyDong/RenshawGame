@@ -8,6 +8,11 @@ namespace Renshaw.Commom
 {
     public class CacheContainer
     {
+        private CacheCollection collection;
 
+        public CacheContainer()
+        {
+            collection = new CacheCollection(3000);
+        }
     }
 }
