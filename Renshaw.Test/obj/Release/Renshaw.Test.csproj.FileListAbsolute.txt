@@ -1,0 +1,5 @@
+F:\workspace\RenshawGame\Renshaw.Test\bin\Release\Renshaw.Test.exe.config
+F:\workspace\RenshawGame\Renshaw.Test\bin\Release\Renshaw.Test.exe
+F:\workspace\RenshawGame\Renshaw.Test\bin\Release\Renshaw.Test.pdb
+F:\workspace\RenshawGame\Renshaw.Test\obj\Release\Renshaw.Test.exe
+F:\workspace\RenshawGame\Renshaw.Test\obj\Release\Renshaw.Test.pdb
