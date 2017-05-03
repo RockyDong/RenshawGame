@@ -93,8 +93,8 @@
   <ItemGroup>
     <Compile Include="CacheCollection.cs" />
     <Compile Include="CacheContainer.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="GameManager.cs" />
+    <Compile Include="MailService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
