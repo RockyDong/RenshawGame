@@ -3,3 +3,14 @@ F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Renshaw.Test.exe
 F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Renshaw.Test.pdb
 F:\workspace\RenshawGame\Renshaw.Test\obj\x64\Debug\Renshaw.Test.exe
 F:\workspace\RenshawGame\Renshaw.Test\obj\x64\Debug\Renshaw.Test.pdb
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\StackExchange.Redis.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\StackExchange.Redis.xml
+F:\workspace\RenshawGame\Renshaw.Test\obj\x64\Debug\Renshaw.Test.csprojResolveAssemblyReference.cache
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Dapper.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\MySqlConnector.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\protobuf-net.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Buffers.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Threading.Tasks.Extensions.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Dapper.xml
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Threading.Tasks.Extensions.xml

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProtoBuf;
 
 namespace Renshaw.Test
 {
@@ -13,7 +14,7 @@ namespace Renshaw.Test
         public string Sender { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public List<Reward> Attach { get; set; }
+        public byte[] Attach { get; set; }
         public DateTime CreateAt { get; set; }
         public int ValidMinute { get; set; }
     }
@@ -29,11 +30,14 @@ namespace Renshaw.Test
         Unread = 0,
         Readed = 1
     }
-
+    [ProtoContract]
     public class Reward
     {
+        [ProtoMember(1)]
         public int Type { get; set; }
+        [ProtoMember(2)]
         public int Id { get; set; }
+        [ProtoMember(3)]
         public int Amount { get; set; }
     }
 }

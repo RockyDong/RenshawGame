@@ -4,3 +4,5 @@ F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Release\Renshaw.Test.pdb
 F:\workspace\RenshawGame\Renshaw.Test\obj\x64\Release\Renshaw.Test.exe
 F:\workspace\RenshawGame\Renshaw.Test\obj\x64\Release\Renshaw.Test.pdb
 F:\workspace\RenshawGame\Renshaw.Test\obj\x64\Release\Renshaw.Test.csprojResolveAssemblyReference.cache
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Release\StackExchange.Redis.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Release\StackExchange.Redis.xml
