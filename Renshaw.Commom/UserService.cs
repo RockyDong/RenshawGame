@@ -5,43 +5,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ServiceStack.OrmLite;
+
 namespace Renshaw.Commom
 {
-    public class MailService 
+    public class UserService
     {
-        private CacheCollection mailCache;
-        public MailService()
+        private CacheCollection userCache;
+        public UserService()
         {
-
+            Init();
         }
 
         public void Load(int userId)
         {
             using (IDbConnection connection = GameManager.DbFactory.OpenDbConnection())
             {
-                var mails = connection.Select<Mail>(m=>m.UserId == userId);
-                mailCache.Add(userId.ToString(), mails);
+                var user = connection.SingleById<User>(userId);
+                userCache.Add(userId.ToString(), user);
             }
         }
 
         public void Unload(int userId)
         {
-            mailCache.Remove(userId.ToString());
+            
         }
 
         public void Init()
         {
-            mailCache = new CacheCollection(1000);
+            userCache = new CacheCollection(1000);
         }
 
-        public void OpenMail(int userId, int mailId)
+        public User GetUser(int userId)
         {
-
-        }
-
-        public void DeleteMail(int userId, int mailId)
-        {
-
+            return (User)userCache[userId.ToString()];
         }
     }
 }
