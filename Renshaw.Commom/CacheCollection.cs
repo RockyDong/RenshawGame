@@ -11,7 +11,7 @@ namespace Renshaw.Commom
     public class CacheCollection : IDictionary<string, object>
     {
         private ConcurrentDictionary<string, object> cacheStruct;
-        public CacheCollection(int capacity, bool isReadOnly = false)
+        public CacheCollection(int capacity = 31, bool isReadOnly = false)
         {
             IsReadOnly = isReadOnly;
             capacity = capacity > 0 ? capacity : 31;

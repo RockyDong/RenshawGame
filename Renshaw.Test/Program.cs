@@ -60,7 +60,7 @@ namespace Renshaw.Test
             {
                 connection.Insert(mail);
             }
-        
+            //ITest //接口默认为internal
 
         Console.Read();
         }

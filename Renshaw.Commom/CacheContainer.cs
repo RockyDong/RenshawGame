@@ -10,9 +10,12 @@ namespace Renshaw.Commom
     {
         private CacheCollection collection;
 
+        private ITest test;
+        
         public CacheContainer()
         {
             collection = new CacheCollection(3000);
+            
         }
     }
 }

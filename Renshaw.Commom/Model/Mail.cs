@@ -17,11 +17,6 @@ namespace Renshaw.Commom
         public List<Reward> Attach { get; set; }
         public DateTime CreateAt { get; set; }
         public int ValidMinute { get; set; }
-    }
-
-    public class MailData
-    {
-        public int MailId { get; set; }
         public MailStatus Status { get; set; }
     }
 
