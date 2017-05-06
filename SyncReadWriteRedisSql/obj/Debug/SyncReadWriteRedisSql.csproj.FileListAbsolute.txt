@@ -1,0 +1,16 @@
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\SyncReadWriteRedisSql.exe.config
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\SyncReadWriteRedisSql.exe
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\SyncReadWriteRedisSql.pdb
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\Dapper.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\MySqlConnector.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\protobuf-net.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\StackExchange.Redis.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\System.Buffers.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\Dapper.xml
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\StackExchange.Redis.xml
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\obj\Debug\SyncReadWriteRedisSql.csprojResolveAssemblyReference.cache
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\obj\Debug\SyncReadWriteRedisSql.exe
+F:\workspace\RenshawGame\SyncReadWriteRedisSql\obj\Debug\SyncReadWriteRedisSql.pdb
