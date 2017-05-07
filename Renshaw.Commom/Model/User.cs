@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Renshaw.Commom
 {
-    public class User
+    public class User : ISingleEntity
     {
         public int UserId { get; set; }
 

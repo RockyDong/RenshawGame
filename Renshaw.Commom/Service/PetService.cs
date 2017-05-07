@@ -24,7 +24,7 @@ namespace Renshaw.Commom
             using (IDbConnection connection = GameManager.DbFactory.OpenDbConnection())
             {
                 var pets = connection.Select<Pet>(m => m.UserId == userId);
-                var petDict = new ConcurrentDictionary<int, object>();
+                var petDict = new ConcurrentDictionary<long, object>();
                 foreach (var pet in pets)
                 {
                     petDict.TryAdd(pet.UniqueId, pet);
@@ -59,6 +59,31 @@ namespace Renshaw.Commom
                 pets.Add((Pet)petKeyValuePair.Value);
             }
             return pets;
+        }
+
+        public void UpdatePet(int userId, int uniqueId)
+        {
+
+        }
+
+        public void UpdatePets(int userId, List<int> uniqueIdList)
+        {
+
+        }
+
+        public void UpdateUserAllPets(int userId)
+        {
+
+        }
+
+        public void AddPet(int userId, int sourceId)
+        {
+
+        }
+
+        public void DeletePet(int userId, long uniqueId)
+        {
+
         }
     }
 }

@@ -7,9 +7,9 @@ using ProtoBuf;
 
 namespace Renshaw.Commom
 {
-    public class Mail
+    public class Mail : IMultiEntity
     {
-        public int MailId { get; set; }
+        public int SourceId { get; set; }
         public int UserId { get; set; }
         public string Sender { get; set; }
         public string Title { get; set; }

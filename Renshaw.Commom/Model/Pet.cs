@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Renshaw.Commom
 {
-    public class Pet
+    public class Pet : IMultiUniqueEntity
     {
         public int UserId { get; set; }
 
-        public int PetId { get; set; }
+        public int SourceId { get; set; }
 
-        public int UniqueId { get; set; }
+        public long UniqueId { get; set; }
 
         public string Name { get; set; }
 

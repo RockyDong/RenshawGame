@@ -114,7 +114,7 @@ namespace Renshaw.Commom
 
             public void Func()
             {
-                new TestClass5().
+                
             }
         }
 
