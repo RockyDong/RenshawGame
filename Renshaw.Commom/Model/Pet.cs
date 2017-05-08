@@ -8,6 +8,10 @@ namespace Renshaw.Commom
 {
     public class Pet : IMultiUniqueEntity
     {
+        public Pet()
+        {
+            UniqueId = BitConverter.ToInt64(Guid.NewGuid().ToByteArray(), 0);
+        }
         public int UserId { get; set; }
 
         public int SourceId { get; set; }
