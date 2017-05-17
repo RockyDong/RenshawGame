@@ -2919,7 +2919,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "b3+cKnA+Ckyvev9UvHpcXm/OiQkjKqOrIZZcYMWVoDmtmBi8lR3q/I6kuMVmaopXwZwNXT6BZ6V4CZmCiMsR9Q==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -2956,7 +2956,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "SihUtSDSeGTp1wSlvP2qKaod/IIe9rAE2nIzwanp9rxwKl5E+BfoXmlDGq6vLdYIFHPhSzdTGzKwJ7z+bgBZuA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -3050,7 +3050,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "rwtjQYgh6aZiCmS7X1bB8aLiJKJOAiYf3mJMLBXaHIiz/W65e+e9Ch1zJ8xQGQI0NGA6YWkmRWxC2fRPidGuMg==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -3087,7 +3087,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "Qf847PjSHv7jhC8jCNtznHcjuL52JqKIR2HTg3nBSIoABhzgbg1JdwOj7qStcDKGFxh3KhlsFP/UiikJaH172g==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -3174,7 +3174,7 @@
       ]
     },
     "System.Data.Common/4.3.0": {
-      "sha512": "lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "sha512": "M6GhPgW99fh+e5L5xYn5UuFYlKUenUyd5/Q0KDXvqUW2JnvLpJrxp05jMsKNXfv47BZ1CIlikyejmkLBnDZqaQ==",
       "type": "package",
       "path": "system.data.common/4.3.0",
       "files": [
@@ -5626,7 +5626,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "wyUXR8mS3mTvhWy3LPWn/87G5D82jp4mDg3Es1m2w4rvD6ZQsuy8XqgrIENjJJ3mVgmTI8rjS3g+e5mMO6WHuQ==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -6862,7 +6862,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dst5650\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",

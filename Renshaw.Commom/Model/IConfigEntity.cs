@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Renshaw.Commom
+namespace Renshaw.Commom.Model
 {
-    public interface ISingleEntity
+    public interface IConfigEntity
     {
-        int UserId { get; set; }
+        int SourceId { get; set; }
+        string GetIdentity();
     }
-
-    
 }

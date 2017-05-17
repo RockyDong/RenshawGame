@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Renshaw.Commom.Model;
 
 namespace Renshaw.Commom
 {
-    public class Pet : IMultiUniqueEntity
+    public class Pet : IMultiSourceUniqueEntity
     {
         public Pet()
         {

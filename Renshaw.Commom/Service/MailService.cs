@@ -73,7 +73,11 @@ namespace Renshaw.Commom
         public Mail GetMail(int userId, int sourceId)
         {
             var mailDict = mailCache[userId.ToString()] as ConcurrentDictionary<int, object>;
-            var mail = (Mail)mailDict[sourceId];
+            Mail mail = null;
+            if (mailDict != null)
+            {
+                mail = (Mail)mailDict[sourceId];
+            }
             return mail;
         }
 

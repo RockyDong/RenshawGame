@@ -14,3 +14,16 @@ F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Runtime.InteropServic
 F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Threading.Tasks.Extensions.dll
 F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Dapper.xml
 F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\System.Threading.Tasks.Extensions.xml
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Renshaw.Commom.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.Common.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.Interfaces.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.OrmLite.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.Text.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.OrmLite.MySql.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\MySql.Data.dll
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Renshaw.Commom.pdb
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\Renshaw.Commom.dll.config
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.Common.xml
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.OrmLite.xml
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.Text.xml
+F:\workspace\RenshawGame\Renshaw.Test\bin\x64\Debug\ServiceStack.OrmLite.MySql.dll.config

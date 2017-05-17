@@ -9,7 +9,10 @@ namespace Renshaw.Commom
     public interface IMultiUniqueEntity
     {
         int UserId { get; set; }
-        int SourceId { get; set; }
         long UniqueId { get; set; }
+
+        string GetIdentity();
+
+        string GetSubIdentity();
     }
 }

@@ -96,18 +96,24 @@
     <Compile Include="GameManager.cs" />
     <Compile Include="ITest.cs" />
     <Compile Include="ITest1.cs" />
+    <Compile Include="Model\IConfigEntity.cs" />
     <Compile Include="Model\IMultiEntity.cs" />
+    <Compile Include="Model\IMultiSourceUniqueEntity.cs" />
     <Compile Include="Model\IMultiUniqueEntity.cs" />
-    <Compile Include="Model\ISingleEntity.cs" />
+    <Compile Include="Model\IShareEntity.cs" />
+    <Compile Include="Model\IUserSingleEntity.cs" />
     <Compile Include="Model\Mail.cs" />
-    <Compile Include="ProtobufUtils.cs" />
+    <Compile Include="Model\ShareEntity.cs" />
+    <Compile Include="Model\SingleEntityBase.cs" />
+    <Compile Include="Utils\GenerateUtils.cs" />
+    <Compile Include="Utils\ProtobufUtils.cs" />
     <Compile Include="Service\MailService.cs" />
     <Compile Include="Model\Pet.cs" />
     <Compile Include="Service\PetService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Service\UserService.cs" />
-    <Compile Include="SyncUtils.cs" />
+    <Compile Include="Utils\SyncUtils.cs" />
     <Compile Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>

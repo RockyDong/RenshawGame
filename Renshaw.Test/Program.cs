@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -52,17 +53,37 @@ namespace Renshaw.Test
                   }
   
               }*/
-            var mail = CreateMail(6);
+
+            /*var mail = CreateMail(6);
             var db = GameManager.RedisMultiplexer.GetDatabase(0);
             var mailBytes = ProtoBufUtils.Serialize(mail);
             db.HashSet(mail.GetType().FullName, mail.UserId, mailBytes);
             using (IDbConnection connection = GameManager.DbFactory.OpenDbConnection())
             {
                 connection.Insert(mail);
-            }
+            }*/
             //ITest //接口默认为internal
 
-        Console.Read();
+            int testNum = 1000000;
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            Dictionary<long,bool> dict = new Dictionary<long, bool>(testNum);
+            for (int i = 0; i < testNum; i++)
+            {
+                bool result;
+                long uniqueId = BitConverter.ToInt64(Guid.NewGuid().ToByteArray(), 0);
+                if (!dict.TryGetValue(uniqueId, out result))
+                    dict[uniqueId] = true;
+                else
+                {
+                    Console.WriteLine("repeated!");
+                }
+
+            }
+            sw.Stop();
+            Console.WriteLine($"{sw.ElapsedMilliseconds}ms  {sw.ElapsedTicks} ticks");
+            Console.WriteLine("not repeated!");
+            Console.Read();
         }
 
         private static void TestMaxThreads()

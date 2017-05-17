@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using ProtoBuf;
+using Renshaw.Commom.Model;
+using ServiceStack.DataAnnotations;
 
 namespace Renshaw.Commom
 {
@@ -18,6 +21,23 @@ namespace Renshaw.Commom
         public DateTime CreateAt { get; set; }
         public int ValidMinute { get; set; }
         public MailStatus Status { get; set; }
+    }
+
+    public class SystemMail : IShareEntity
+    {
+        public SystemMail()
+        {
+
+        }
+        [AutoIncrement]
+        public int IndexId { get; set; }
+        [PrimaryKey]
+        public long UniqueId { get; set; }
+        public string Title { get; set; }
+        public string Content { get; set; }
+        public List<Reward> Attach { get; set; }
+        public DateTime CreateAt { get; set; }
+        public int ValidMinute { get; set; }
     }
 
     public enum MailStatus
