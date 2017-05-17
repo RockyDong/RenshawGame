@@ -1,6 +1,0 @@
-F:\workspace\RenshawGame\Renshaw.Test\bin\Debug\Renshaw.Test.exe.config
-F:\workspace\RenshawGame\Renshaw.Test\bin\Debug\Renshaw.Test.exe
-F:\workspace\RenshawGame\Renshaw.Test\bin\Debug\Renshaw.Test.pdb
-F:\workspace\RenshawGame\Renshaw.Test\obj\Debug\Renshaw.Test.csprojResolveAssemblyReference.cache
-F:\workspace\RenshawGame\Renshaw.Test\obj\Debug\Renshaw.Test.exe
-F:\workspace\RenshawGame\Renshaw.Test\obj\Debug\Renshaw.Test.pdb
