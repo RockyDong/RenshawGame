@@ -11,13 +11,13 @@ using ServiceStack.OrmLite.MySql;
 
 namespace Renshaw.Commom.Model
 {
-    public class SingleEntityBase<T> where T : IUserSingleEntity, IShareEntity, IConfigEntity, new()
+    public class SingleEntityBase<T> where T : ISingleEntity, new()
     {
         private ConcurrentDictionary<string, T> cache;
 
         public SingleEntityBase()
         {
-            cache = new ConcurrentDictionary<string, T>(Environment.ProcessorCount * 2, 1000);
+            cache = new ConcurrentDictionary<string, T>(Environment.ProcessorCount * 2, 100);
         }
 
         public void Load(string key)

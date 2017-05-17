@@ -101,6 +101,7 @@
     <Compile Include="Model\IMultiSourceUniqueEntity.cs" />
     <Compile Include="Model\IMultiUniqueEntity.cs" />
     <Compile Include="Model\IShareEntity.cs" />
+    <Compile Include="Model\ISingleEntity.cs" />
     <Compile Include="Model\IUserSingleEntity.cs" />
     <Compile Include="Model\Mail.cs" />
     <Compile Include="Model\ShareEntity.cs" />

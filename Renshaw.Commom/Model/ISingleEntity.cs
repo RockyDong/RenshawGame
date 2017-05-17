@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Renshaw.Commom.Model
 {
-    public interface IConfigEntity:ISingleEntity
+    public interface ISingleEntity
     {
-        int SourceId { get; set; }
+        string GetIdentity();
     }
 }
