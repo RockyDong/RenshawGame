@@ -38,6 +38,10 @@ namespace Renshaw.Commom
         public List<Reward> Attach { get; set; }
         public DateTime CreateAt { get; set; }
         public int ValidMinute { get; set; }
+        public string GetIdentity()
+        {
+            return UniqueId.ToString();
+        }
     }
 
     public enum MailStatus

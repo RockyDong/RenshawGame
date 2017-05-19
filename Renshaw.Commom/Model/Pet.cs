@@ -30,7 +30,15 @@ namespace Renshaw.Commom
         public int CurrentExp { get; set; }
 
         public PetBattleProperty BattleProperty { get; set; }
+        public string GetIdentity()
+        {
+            return UserId.ToString();
+        }
 
+        public string GetSubIdentity()
+        {
+            return UniqueId.ToString();
+        }
     }
 
     public class PetBattleProperty

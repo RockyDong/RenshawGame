@@ -106,6 +106,8 @@
     <Compile Include="Model\Mail.cs" />
     <Compile Include="Model\ShareEntity.cs" />
     <Compile Include="Model\SingleEntityBase.cs" />
+    <Compile Include="MysqlCommand.cs" />
+    <Compile Include="RedisCommand.cs" />
     <Compile Include="Utils\GenerateUtils.cs" />
     <Compile Include="Utils\ProtobufUtils.cs" />
     <Compile Include="Service\MailService.cs" />

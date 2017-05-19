@@ -64,7 +64,20 @@ namespace Renshaw.Commom.Model
             {
                 if (t == null)
                 {
+                    var valueBytes = ProtoBufUtils.Serialize(value);
                     //add
+                    var mysqlCommand = new MysqlCommand();
+                    mysqlCommand.TypeFullName = typeof(T).FullName;
+                    mysqlCommand.CommandType = "insert";
+                    mysqlCommand.DataBytes = valueBytes;
+
+                    GameManager.MysqlQueue.Enqueue(mysqlCommand);
+
+                    var redisCommand = new RedisCommand();
+                    redisCommand.Key = typeof(T).FullName;
+                    redisCommand.Field = "insert";
+                    redisCommand.DataBytes = valueBytes;
+
                     connection.Insert(value);
                 }
                 else

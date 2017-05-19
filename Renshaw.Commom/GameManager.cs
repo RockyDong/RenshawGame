@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace Renshaw.Commom
         private static OrmLiteConnectionFactory dbFactory;
         private static readonly object RedisLocker = new object();
         private static readonly object MysqlLocker = new object();
+
         /// <summary>
         /// redis单例
         /// </summary>
@@ -48,5 +50,9 @@ namespace Renshaw.Commom
                 return dbFactory;
             }
         }
+
+        public static ConcurrentQueue<MysqlCommand> MysqlQueue { get; } = new ConcurrentQueue<MysqlCommand>();
+
+        public static ConcurrentQueue<RedisCommand> RedisQueue { get; } = new ConcurrentQueue<RedisCommand>();
     }
 }

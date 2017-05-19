@@ -19,5 +19,10 @@ namespace Renshaw.Commom
         public int Coin { get; set; }
 
         public int Diamond { get; set; }
+
+        public string GetIdentity()
+        {
+            return UserId.ToString();
+        }
     }
 }

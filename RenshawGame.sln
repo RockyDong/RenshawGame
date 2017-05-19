@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renshaw", "Renshaw\Renshaw.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlConnector.Test", "MysqlConnector.Test\MysqlConnector.Test.csproj", "{F57A100C-5D57-4784-931F-CBD62C91A3FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMQ_Test", "NetMQ_Test\NetMQ_Test.csproj", "{13DE1D08-7E11-4960-8736-EF50683694AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,14 @@ Global
 		{F57A100C-5D57-4784-931F-CBD62C91A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F57A100C-5D57-4784-931F-CBD62C91A3FB}.Release|x64.ActiveCfg = Release|Any CPU
 		{F57A100C-5D57-4784-931F-CBD62C91A3FB}.Release|x64.Build.0 = Release|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{13DE1D08-7E11-4960-8736-EF50683694AD}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
